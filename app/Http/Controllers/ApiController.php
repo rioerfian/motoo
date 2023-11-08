@@ -17,7 +17,7 @@ class ApiController extends Controller
             ->get();
         $user = User::all();
         if ($application) {
-            return response()->json(['product' => $application, 'user' => $user], 200);
+            return response()->json(['application' => $application, 'user' => $user], 200);
         } else {
             return response()->json(['data tidak ditemukan'], 401);
         }
