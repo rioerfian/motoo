@@ -27,6 +27,7 @@ class RegisterController extends Controller
                 // custom message
                 'name.required' => 'Nama belum terisi', 
                 'email.required' => 'Email belum terisi', 
+                'email.email' => 'Email harus valid', 
                 'email.unique' => 'Email sudah terdaftar', 
                 'password.required' => 'Password belum terisi', 
                 'password.min' => 'Password minimal 8 karakter' 
